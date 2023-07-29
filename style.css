@@ -595,6 +595,20 @@ footer .social-media-links a>i {
         float: none;
         width: 100%;
     }
+    .contact-line {
+        padding: 0;
+    }
+    .contact-line p {
+        display: none;
+    }
+    .contact-line a {
+        display: inline-block;
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 0;
+        border: none;
+        padding: .5em 0;
+    }
 }
 
 @media (orientation: landscape)and (max-height: 500px) { 
